@@ -28,8 +28,8 @@ const Navbar = () => {
             <a href="/contact" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Contato</a>
             {isAuthenticated ? (
                 <>
-                    <a href="/profile" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Perfil</a>
-                    <button onClick={handleLogout} className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Sair</button>
+                    <a href="/profile" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium cursor-pointer">Perfil</a>
+                    <button onClick={handleLogout} className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium cursor-pointer">Sair</button>
                 </>
             ) : (
                 <a href="/login" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Login</a>

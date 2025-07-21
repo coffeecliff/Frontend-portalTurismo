@@ -1,21 +1,39 @@
+import axios from "axios";
 import React, {useState} from "react";
+
  
 const RegisterForm = () => {
     const [nome, setNome] = useState('')
     const [email, setEmail] = useState('')
     const [senha, setSenha] = useState('')
  
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        const novoUsuario = {nome, email}
-        localStorage.setItem('user', JSON.stringify(novoUsuario))
-        window.location.href='/'
-       
-    }
-    return (
+        try {
+          const response = await axios.post("http://localhost:5000/api/users" ,{
+            name: nome,
+            email,
+            password: senha
+          });
+         alert("Usuário cadastrado com sucesso!!" + `nome: ${response.data.name} email: ${response.data.email}`)
+         window.location.href = "/login"
+        } catch (error) {
+          if (error.response) {
+            console.error("Erro completo da API:", error.response.data);
+            alert("Erro ao cadastrar: " + error.response.data.message);
+          } else if (error.request) {
+            console.error("Requisição feita, mas sem resposta:", error.request);
+            alert("Erro: o servidor não respondeu.");
+          } else {
+            console.error("Erro desconhecido:", error.message);
+            alert("Erro inesperado: " + error.message);
+          }
+        }
+      };
+      return (
         <>
             <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
-                <h2 className="text-2xl font-semibold text-center mb-6 text-black">Cadastrar</h2>
+              <h2 className="text-2xl font-semibold text-center mb-6 text-black">Cadastrar</h2>
                 <form onSubmit={handleSubmit}>
                 <div>
                         <label>Nome</label>
@@ -66,5 +84,5 @@ const RegisterForm = () => {
         </>
     )
 }
- 
-export default RegisterForm
+
+export default RegisterForm;
