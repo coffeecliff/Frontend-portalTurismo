@@ -12,12 +12,12 @@ import dago from "../assets/imagens/templo.png";
 import japaneseshop from "../assets/imagens/japaneseshop.png";
 
 const tourist_places = [
-  { Image: tokyo, title: "Japão", description: "Capital bunita" },
-  { Image: paris, title: "Paris - França", description: "Local bunito e sujo tbm, mds 😥" },
-  { Image: riodejaneiro, title: "Rio de Janeiro", description: "Local bunito" },
+  { Image: tokyo, title: "Tokyo - Japão", description: "Capital bunita" },
+  { Image: paris, title: "Paris - França", description: "Local bunito" },
+  { Image: riodejaneiro, title: "Rio de Janeiro - Brasil", description: "Local bunito" },
   { Image: timesquare, title: "Time Square - EUA", description: "Local bunito" },
-  { Image: dago, title: "Templo Dagoji", description: "Templo bunito" },
-  { Image: japaneseshop, title: "Loja japonesa", description: "Loja bunita" }
+  { Image: dago, title: "Templo Dagoji - Japão", description: "Templo bunito" },
+  { Image: japaneseshop, title: "Loja japonesa - Japão", description: "Loja bunita" }
 ];
 
 const Carousel = () => {
@@ -25,7 +25,7 @@ const Carousel = () => {
     <>
       <div className="relative z-10 w-full">
         <h1 className="text-3-1 font-extrabold text-center mt-20 mb-12 text-[#333] drop-shadow-lg text-[35px]">
-          Pontos turísticos locais mais visitados
+          Pontos turísticos mais visitados
         </h1>
 
         <div>

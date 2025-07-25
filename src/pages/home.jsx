@@ -14,7 +14,7 @@ const Home = () =>{
                 <Navbar/>
                 <MikuSwiper/>
                 <div>
-                    <Hero background= {bg} titulo="Portal de Turismo da Miku!" paragrafo="Conheça nossas atrações" rota="#" botao="Saiba mais"/>
+                    <Hero background= {bg} titulo="Portal de Turismo da Miku!" paragrafo="Conheça nossas atrações" rota="/service" botao="Saiba mais"/>
                 </div>
                 <HomeHero/>
                 <Carousel/>

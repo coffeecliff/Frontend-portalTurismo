@@ -23,9 +23,9 @@ const Navbar = () => {
     const menuLinks = (
         <>
             <a href="/" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Home</a>
-            <a href="/about" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Sobre</a>
             <a href="/service" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Serviços</a>
             <a href="/contact" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Contato</a>
+            <a href="/about" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium">Sobre</a>
             {isAuthenticated ? (
                 <>
                     <a href="/profile" className="text-[#63ebe4] hover:text-cyan-100 transition-colors duration-300 text-lg font-medium cursor-pointer">Perfil</a>

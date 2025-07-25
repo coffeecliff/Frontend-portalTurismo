@@ -12,7 +12,7 @@ const Footer = () =>{
                 <div>
                 <h4 className="text-lg font-semibold mb-2">Sobre nós</h4>
                 <ul className="text-sm space-y-1">
-                    <li><a href="#" className="hover:underline">Quem somos</a></li>
+                    <li><a href="about" className="hover:underline">Quem somos</a></li>
                     <li><a href="#" className="hover:underline">Política de Privacidade</a></li>
                     <li><a href="#" className="hover:underline">Termos de Uso</a></li>
                 </ul>
@@ -22,7 +22,7 @@ const Footer = () =>{
                 <div>
                 <h4 className="text-lg font-semibold mb-2">Atendimento</h4>
                 <ul className="text-sm space-y-1">
-                    <li>Telefone: (xx) xxxx-xxxx</li>
+                    <li>Telefone: (11) 4002-8922</li>
                     <li>Email: contato@novaserraverde.com</li>
                     <li>Horário: Seg a Sex - 08h às 18h</li>
                 </ul>

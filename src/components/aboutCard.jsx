@@ -18,8 +18,9 @@ const AboutCard = () => {
         </h1>
         <div>
           <p className="text-[#333] text-center mb-100 text-2xl font-bold leading-10.5">
-            Entrei no curso, vi uma porta, vi adolescentes, uma semana depois derrubaram o elevador. Gostei.
-            Mas estou gostando bastante do curso, para o começo, estou me dando muito bem, mas não seria o mesmo sem os amigos que fiz aqui.
+            Esta é uma página feita para um projeto de curso, onde o objetivo é criar um portal de turismo fictício. 
+            A ideia é apresentar informações sobre pontos turísticos, serviços e atrações de forma interativa e visualmente atraente inspirado na cantora virtual Hatsune Miku. 
+            O projeto utiliza tecnologias modernas como React para a construção da interface, proporcionando uma experiência dinâmica e responsiva aos usuários.
           </p>
         </div>
       </div>
