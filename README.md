@@ -1,12 +1,23 @@
-# React + Vite
+# 🌐 Portal de Turismo - Projeto Fictício
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte de um curso, com o objetivo de criar um **portal turístico fictício** que explora conceitos de design, interatividade e desenvolvimento web moderno.
 
-Currently, two official plugins are available:
+## 🏖️ Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A proposta é apresentar **informações sobre pontos turísticos, atrações e serviços** de maneira visualmente atrativa e interativa. O diferencial está na inspiração criativa: o portal foi estilizado com base no universo da **cantora virtual Hatsune Miku**, unindo elementos de turismo e cultura pop em uma experiência única.
 
-## Expanding the ESLint configuration
+## 💻 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) – Biblioteca principal para a criação da interface
+- [Vite](https://vitejs.dev/) – Ferramenta para build rápido e leve
+- [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS3 / Tailwind](https://tailwindcss.com/) – Estilização moderna e responsiva
+
+## ⚙️ Funcionalidades
+
+- Layout responsivo para diferentes dispositivos
+- Navegação fluida entre páginas
+- Apresentação visual de atrações e pontos turísticos
+- Estilo inspirado em Hatsune Miku
+
+
